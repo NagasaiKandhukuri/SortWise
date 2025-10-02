@@ -2,7 +2,12 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'export',
+
+
+  
+  // output: 'export', // because we want Vercel to build and serve dynamically
+  
+  
   typescript: {
     ignoreBuildErrors: true,
   },
